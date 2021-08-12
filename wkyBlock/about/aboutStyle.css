@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#mainDiv{
+    background: rgb(102, 99, 99);
+    font-family:Arial, Helvetica, sans-serif;
+    width: 85%;
+    height: 1000px;
+    margin: 17px auto;
+    border-radius: 17px;
+    box-shadow: 2px 2px 10px rgb(26, 26, 26);
+}
+
+body{
+    /*96, 180, 168*/
+    background:rgb(19, 30, 59);
+}
+
+#title{
+    background: rgb(70, 67, 67);
+    height: 100px;
+    border-radius: 17px;
+}
+
+#menuStyle{
+    float:left;
+    text-align: center;
+    line-height: 100px;
+    width: 10%;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menuStyle1{
+    box-shadow: 2px 2px 10px rgb(26, 26, 26);
+    cursor: pointer;
+}
+
+#menuStyle1:hover,
+#menuStyle1:focus{
+    box-shadow: 1 0.5em 1.5em -0.4em var(--hover);
+    -webkit-transform: translateY(-0.25em);
+    transform: translateY(-0.25em);
+}
+
+
+#cabecera{
+    float: right;
+    width: 90%;
+    text-align: center;
+    line-height: 100px;
+}
+
+#menu{
+    float: left;
+    list-style: none;
+    background:rgb(143, 137, 137);
+    margin: 10px;
+    height: 87.5%;
+    width: 30%;
+    line-height: 30px;
+    border-radius: 8px;
+    transition: width .4s;
+}
+
+#about{
+    float: right;
+    height: 84%;
+    width: 61%;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+#imgAbout{
+    margin-right: 50px;
+    margin-top:50px;
+}
+
+#documeto_about{
+    margin-right: 76px;
+}
+
+#buscar{
+    text-align: center;
+    height: 50px;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:rgba(130, 54, 140, 0.568);
+    border-radius: 17px;
+    box-shadow: 2px 2px 10px rgb(26, 26, 26);
+    color:bisque;
+    cursor: pointer;
+    padding: 1px;
+}
+
+#homeDiv{
+    text-align: center;
+    height: 50px;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:rgba(130, 54, 140, 0.568);
+    border-radius: 17px;
+    box-shadow: 2px 2px 10px rgb(26, 26, 26);
+    color:bisque;
+    cursor: pointer;
+    padding: 1px;
+}
+
+#aboutDiv{
+    text-align: center;
+    height: 50px;
+    width: 49%;
+    margin-left: 25%;
+    margin-right: 30px;
+    display: inline-block;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background:rgba(130, 54, 140, 0.568);
+    border-radius: 17px;
+    box-shadow: 2px 2px 10px rgb(26, 26, 26);
+    color:bisque;
+    cursor: pointer;
+    padding: 1px;
+}
+
+#buscar:hover,
+#buscar:focus{
+    box-shadow: 1 0.5em 1.5em -0.4em var(--hover);
+    -webkit-transform: translateY(-0.25em);
+    transform: translateY(-0.25em);
+
+}
+
+#aboutDiv:hover,
+#aboutDiv:focus{
+    box-shadow: 1 0.5em 1.5em -0.4em var(--hover);
+    -webkit-transform: translateY(-0.25em);
+    transform: translateY(-0.25em);
+
+}
+
+#homeDiv:hover,
+#homeDiv:focus{
+    box-shadow: 1 0.5em 1.5em -0.4em var(--hover);
+    -webkit-transform: translateY(-0.25em);
+    transform: translateY(-0.25em);
+
+}
+

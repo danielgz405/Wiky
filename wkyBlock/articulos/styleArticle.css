@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#mainDiv{
+    background: rgb(102, 99, 99);
+    font-family:Arial, Helvetica, sans-serif;
+    width: 85%;
+    height: 3000px;
+    margin: 17px auto;
+    border-radius: 17px;
+    box-shadow: 2px 2px 10px rgb(26, 26, 26);
+}
+
+body{
+    /*96, 180, 168*/
+    background:rgb(56, 143, 130);
+}
+
+#title{
+    background: rgb(70, 67, 67);
+    height: 100px;
+    border-radius: 17px;
+}
+
+#menuStyle{
+    float:left;
+    text-align: center;
+    line-height: 100px;
+    width: 10%;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menuStyle1{
+    box-shadow: 2px 2px 10px rgb(26, 26, 26);
+    cursor: pointer;
+}
+
+#menuStyle1:hover,
+#menuStyle1:focus{
+    box-shadow: 1 0.5em 1.5em -0.4em var(--hover);
+    -webkit-transform: translateY(-0.25em);
+    transform: translateY(-0.25em);
+}
+
+#cabecera{
+    float: right;
+    width: 90%;
+    text-align: center;
+    line-height: 100px;
+}
+
+#menu{
+    float: left;
+    list-style: none;
+    background:rgb(143, 137, 137);
+    margin: 10px;
+    height: 95.5%;
+    width: 30%;
+    line-height: 30px;
+    border-radius: 8px;
+    transition: width .4s;
+}
+
+#home{
+    float: right;
+    height: auto;
+    width: 60%;
+    height: 99.5%;
+}
+#articulo{
+    
+    margin-top: 30px;
+    border-radius: 17px;
+    background: rgba(34, 28, 28, 0.37);
+    height: 93%;
+    width: 95%;
+
+}
+
+#mainArticle{
+
+    width: 100%;
+    height: 100%;
+}
+
+#divicion{
+    margin: 30px;
+}
+
+#title_principal{
+    margin-left: 30px; 
+    color:beige;
+    text-align: center;
+    line-height: 70px;
+    height:3%;
+    width: 92%;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+#title1{
+    background:rgb(39, 37, 37);
+    border-radius: 17px;
+    float: left;
+    width: 100%;
+    height: 85px;
+    margin: 0px;
+}
+
+#title_secundario{
+    margin-left: 30px; 
+    color:beige;
+    height:3%;
+    width: 92%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+    font-size: 20px;
+    line-height: 70px;
+}
+
+#subTitle{
+    color:rgb(219, 219, 219);
+    font-size: 15.5px;
+}
+
+#content{
+    margin-left: 30px; 
+    color:rgb(12, 11, 10);
+    height:6% auto;
+    width: 92%;
+    font-size: 15;
+    padding-right: 50px;
+}
+#imagencita1{
+    margin-left: 55px; 
+    /*transform: translateX(80px);*/
+    margin-top: 5px;
+    width: 75%;
+    height: 8.5%;
+}
+
+#imagencita2{
+    margin-left: 55px; 
+    /*transform: translateX(80px);*/
+    margin-top: 5px;
+    width: 75%;
+    height: 11.5%;
+}
+
+#imagen_de_articulo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+}
+
+#buscar{
+    text-align: center;
+    height: 50px;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:rgba(130, 54, 140, 0.568);
+    border-radius: 17px;
+    box-shadow: 2px 2px 10px rgb(26, 26, 26);
+    color:bisque;
+    cursor: pointer;
+    padding: 1px;
+}
+
+#homeDiv{
+    text-align: center;
+    height: 50px;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:rgba(130, 54, 140, 0.568);
+    border-radius: 17px;
+    box-shadow: 2px 2px 10px rgb(26, 26, 26);
+    color:bisque;
+    cursor: pointer;
+    padding: 1px;
+}
+
+#aboutDiv{
+    text-align: center;
+    height: 50px;
+    width: 49%;
+    margin-left: 25%;
+    margin-right: 30px;
+    display: inline-block;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background:rgba(130, 54, 140, 0.568);
+    border-radius: 17px;
+    box-shadow: 2px 2px 10px rgb(26, 26, 26);
+    color:bisque;    
+    cursor: pointer;
+    padding: 1px;
+}
+
+#buscar:hover,
+#buscar:focus{
+    box-shadow: 1 0.5em 1.5em -0.4em var(--hover);
+    -webkit-transform: translateY(-0.25em);
+    transform: translateY(-0.25em);
+
+}
+
+#aboutDiv:hover,
+#aboutDiv:focus{
+    box-shadow: 1 0.5em 1.5em -0.4em var(--hover);
+    -webkit-transform: translateY(-0.25em);
+    transform: translateY(-0.25em);
+
+}
+
+#homeDiv:hover,
+#homeDiv:focus{
+    box-shadow: 1 0.5em 1.5em -0.4em var(--hover);
+    -webkit-transform: translateY(-0.25em);
+    transform: translateY(-0.25em);
+
+}
